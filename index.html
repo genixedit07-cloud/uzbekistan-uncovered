@@ -4,61 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Uzbekistan Uncovered — Travel the Silk Road</title>
-  <meta name="description" content="Travel Uzbekistan and the Silk Road — real footage, real history. A YouTube channel for curious travelers.">
+  <meta name="description" content="Travel Uzbekistan and the Silk Road — history, culture and honest travel tips for Americans, from a YouTube channel made by someone who lives here.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,500;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- YUQORI MENYU -->
   <nav class="masthead">
-    <a class="logo" href="#top">Uzbekistan <em>Uncovered</em></a>
+    <a class="logo" href="#top">Uzbekistan <span>Uncovered</span></a>
     <div class="nav-links">
-      <a href="#destinations">Destinations</a>
+      <a href="#destinations">Cities</a>
+      <a href="#route">Route</a>
       <a href="#videos">Videos</a>
+      <a href="#tips">Tips</a>
       <a href="#contact">Contact</a>
     </div>
     <a class="btn btn-subscribe btn-small" href="https://www.youtube.com/@uzbekistan_uncovered?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a>
   </nav>
 
-  <!-- 1. MUQOVA (katta rasm) -->
+  <!-- 1. MUQOVA: chapda matn, o'ngda Buxoro minorasi -->
   <header class="cover" id="top">
-    <img class="cover-img" src="images/registan.jpg" alt="The Registan square in Samarkand at golden hour">
-    <div class="cover-shade"></div>
     <div class="cover-text">
-      <p class="kicker">Issue 01 · The Silk Road</p>
-      <h1>Where the Silk Road <em>still glows</em></h1>
-      <p class="dek">Blue domes, caravan cities and two thousand years of stories — filmed on the ground in Uzbekistan, explained for curious travelers.</p>
+      <p class="kicker">Bukhara · Samarkand · Khiva</p>
+      <h1>The Silk Road, <span>uncovered.</span></h1>
+      <p class="dek">Blue domes, caravan cities and two thousand years of stories — explained for curious travelers by someone who lives here.</p>
       <div class="cover-actions">
         <a class="btn btn-subscribe" href="https://www.youtube.com/@uzbekistan_uncovered?sub_confirmation=1" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
           Subscribe on YouTube
         </a>
-        <a class="btn btn-light" href="#videos">Watch the videos</a>
+        <a class="btn btn-outline" href="#tips">Plan your trip</a>
       </div>
     </div>
-    <p class="cover-credit">Registan, Samarkand</p>
+    <div class="cover-media">
+      <img src="images/bukhara.jpg" alt="The Kalyan minaret in Bukhara against a blue sky">
+      <p class="cover-credit">Kalyan Minaret, Bukhara</p>
+    </div>
   </header>
 
   <main>
-    <!-- 2. KIRISH (jurnal maqolasi kabi) -->
-    <section class="intro">
-      <p class="section-label">From the editor</p>
+    <!-- 2. KIRISH -->
+    <section class="intro wrap">
+      <p class="section-label">About the channel</p>
       <div class="intro-grid">
-        <p class="lead"><span class="dropcap">U</span>zbekistan sits at the crossroads of the old world. Merchants carried silk, paper and ideas through its oasis cities for centuries — and much of what they built is still standing. I live here, and I film it myself: no stock clips, just the real streets, the real food and the real history.</p>
+        <p class="lead">Uzbekistan sits at the crossroads of the old world. Merchants carried silk, paper and ideas through its oasis cities for centuries — and much of what they built is still standing. I live here, and I make short, clear videos about it: the history, the food and the practical tips you need before you go.</p>
         <blockquote class="pull">“Every city here is a chapter of the Silk Road. I want to show you how to read it.”</blockquote>
       </div>
       <ul class="facts">
         <li><strong>3</strong><span>legendary cities</span></li>
         <li><strong>2,000+</strong><span>years of history</span></li>
-        <li><strong>100%</strong><span>own footage</span></li>
+        <li><strong>100%</strong><span>made in Uzbekistan</span></li>
       </ul>
     </section>
 
     <!-- 3. SHAHARLAR -->
-    <section class="destinations" id="destinations">
+    <section class="destinations wrap" id="destinations">
       <p class="section-label">Destinations</p>
       <h2>Three cities, one road</h2>
       <div class="dest-grid">
@@ -71,7 +74,7 @@
           </div>
         </article>
         <article class="dest">
-          <img src="images/bukhara.jpg" alt="The Kalyan minaret in Bukhara" loading="lazy">
+          <img src="images/chor-minor.jpg" alt="The blue-domed towers of Chor Minor in Bukhara" loading="lazy">
           <div class="dest-text">
             <span class="num">02</span>
             <h3>Bukhara</h3>
@@ -89,35 +92,120 @@
       </div>
     </section>
 
-    <!-- 4. VIDEOLAR (videos.js to'ldiradi) -->
-    <section class="videos" id="videos">
+    <!-- 4. XARITA: Ipak yo'li marshruti -->
+    <section class="route wrap" id="route">
+      <p class="section-label">The route</p>
+      <h2>Follow the caravans</h2>
+      <div class="route-grid">
+        <figure class="map">
+          <svg viewBox="-40 0 1280 480" role="img" aria-label="Simple map of the Silk Road route through Uzbekistan: Khiva, Bukhara, Samarkand and Tashkent">
+            <defs>
+              <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+                <circle cx="2" cy="2" r="1.6" class="map-dot-bg"/>
+              </pattern>
+            </defs>
+            <rect x="-40" width="1280" height="480" fill="url(#dots)"/>
+            <text x="420" y="150" class="map-desert">Kyzylkum Desert</text>
+            <path class="map-route" d="M236 222 C 380 250, 500 360, 642 383 S 800 410, 896 395 S 1060 300, 1124 230"/>
+            <g class="map-city"><circle cx="236" cy="222" r="11"/><text x="236" y="190">Khiva</text></g>
+            <g class="map-city"><circle cx="642" cy="383" r="11"/><text x="610" y="448">Bukhara</text></g>
+            <g class="map-city"><circle cx="896" cy="395" r="11"/><text x="935" y="448">Samarkand</text></g>
+            <g class="map-city capital"><circle cx="1124" cy="230" r="14"/><text x="1124" y="190">Tashkent</text></g>
+            <text x="1124" y="128" class="map-note">✈ arrive here</text>
+          </svg>
+          <figcaption>Simplified map, not to scale.</figcaption>
+        </figure>
+        <ol class="legs">
+          <li><span class="leg-from">New York → Tashkent</span><span class="leg-how">about 12 h, nonstop flight</span></li>
+          <li><span class="leg-from">Tashkent → Samarkand</span><span class="leg-how">about 2 h by fast train</span></li>
+          <li><span class="leg-from">Samarkand → Bukhara</span><span class="leg-how">about 1.5 h by fast train</span></li>
+          <li><span class="leg-from">Bukhara → Khiva</span><span class="leg-how">a long day across the desert — train or road</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 5. VIDEOLAR (videos.js to'ldiradi) -->
+    <section class="videos wrap" id="videos">
       <p class="section-label">Latest on the channel</p>
       <h2>Watch</h2>
       <div class="video-grid" id="video-grid"></div>
       <p class="more">
-        <a class="btn btn-dark" href="https://www.youtube.com/@uzbekistan_uncovered/videos" target="_blank" rel="noopener">See all videos on YouTube →</a>
+        <a class="btn btn-outline" href="https://www.youtube.com/@uzbekistan_uncovered/videos" target="_blank" rel="noopener">See all videos on YouTube →</a>
       </p>
+    </section>
+
+    <!-- 6. OBUNA BANNERI -->
+    <section class="cta wrap">
+      <div class="cta-box">
+        <div>
+          <p class="section-label">Don't miss the next stop</p>
+          <h2>Follow the road with me</h2>
+          <p>Short, honest guides to Uzbekistan — the history, the food and the practical stuff — from someone who lives here.</p>
+        </div>
+        <a class="btn btn-gold" href="https://www.youtube.com/@uzbekistan_uncovered?sub_confirmation=1" target="_blank" rel="noopener">Subscribe — it's free</a>
+      </div>
+    </section>
+
+    <!-- 7. SAYOHAT MASLAHATLARI -->
+    <section class="tips wrap" id="tips">
+      <p class="section-label">Plan your trip</p>
+      <h2>Travel tips for Americans</h2>
+      <div class="tips-grid">
+        <article class="tip">
+          <span class="tip-num">01</span>
+          <h3>No visa needed</h3>
+          <p>Since January 1, 2026, U.S. citizens can visit visa-free for up to 30 days. To be safe, your passport should be valid for at least six months.</p>
+        </article>
+        <article class="tip">
+          <span class="tip-num">02</span>
+          <h3>Registration</h3>
+          <p>Hotels register you automatically. Staying with friends? Your host registers you on Emehmon. Keep the slips — you may be asked for them when you leave.</p>
+        </article>
+        <article class="tip">
+          <span class="tip-num">03</span>
+          <h3>Getting there</h3>
+          <p>There is a nonstop flight from New York (JFK) to Tashkent, about 12 hours. One-stop routes via Istanbul or the Gulf are sometimes cheaper.</p>
+        </article>
+        <article class="tip">
+          <span class="tip-num">04</span>
+          <h3>Money</h3>
+          <p>The currency is the som. Cards work in many city hotels and restaurants, but bazaars and small towns run on cash. Bring clean, newer dollar bills.</p>
+        </article>
+        <article class="tip">
+          <span class="tip-num">05</span>
+          <h3>Getting around</h3>
+          <p>Fast trains link Tashkent, Samarkand and Bukhara — book ahead in high season. Buy a local SIM at the airport for maps and taxi apps.</p>
+        </article>
+        <article class="tip">
+          <span class="tip-num">06</span>
+          <h3>Best time to go</h3>
+          <p>Spring (April–May) and autumn (September–October) bring warm days and cool nights. Summer in the desert cities is very hot.</p>
+        </article>
+      </div>
+      <p class="tips-note">Rules can change — always check official sources before you fly. Last checked: November 2026.</p>
     </section>
   </main>
 
-  <!-- 5. ALOQA -->
+  <!-- 8. ALOQA -->
   <footer class="contact" id="contact">
-    <p class="section-label">Contact</p>
-    <h2>Let's talk</h2>
-    <p class="contact-note">Questions about traveling to Uzbekistan, collaborations or sponsorships — I'd love to hear from you.</p>
-    <a class="email" id="contact-email" href="#"></a>
-    <div class="socials" id="socials"></div>
+    <div class="wrap">
+      <p class="section-label">Contact</p>
+      <h2>Let's talk</h2>
+      <p class="contact-note">Questions about traveling to Uzbekistan, collaborations or sponsorships — I'd love to hear from you.</p>
+      <a class="email" id="contact-email" href="#"></a>
+      <div class="socials" id="socials"></div>
 
-    <details class="credits">
-      <summary>Photo credits</summary>
-      <ul>
-        <li>“Registan, Samarkand, Uzbekistan” by RyansWorld — <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=21988100" target="_blank" rel="noopener">Wikimedia Commons</a></li>
-        <li>“Shah-i-Zinda, Samarkand” by Fulvio Spada — <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=40013838" target="_blank" rel="noopener">Wikimedia Commons</a></li>
-        <li>“Bukhara Kalyan minaret from the south” by Ymblanter — <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=98805756" target="_blank" rel="noopener">Wikimedia Commons</a></li>
-        <li>“KhivaWalls” by Doron — <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=2121455" target="_blank" rel="noopener">Wikimedia Commons</a></li>
-      </ul>
-    </details>
-    <p class="copy">© <span id="year">2026</span> Uzbekistan Uncovered</p>
+      <details class="credits">
+        <summary>Photo credits</summary>
+        <ul>
+          <li>“Bukhara Kalyan minaret from the south” by Ymblanter — <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=98805756" target="_blank" rel="noopener">Wikimedia Commons</a></li>
+          <li>“Shah-i-Zinda, Samarkand” by Fulvio Spada — <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=40013838" target="_blank" rel="noopener">Wikimedia Commons</a></li>
+          <li>“Chor Minor, Bukhara” by Fulvio Spada — <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a>, <a href="https://www.flickr.com/photos/78722206@N00/4934567894" target="_blank" rel="noopener">Flickr</a></li>
+          <li>“KhivaWalls” by Doron — <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=2121455" target="_blank" rel="noopener">Wikimedia Commons</a></li>
+        </ul>
+      </details>
+      <p class="copy">© <span id="year">2026</span> Uzbekistan Uncovered</p>
+    </div>
   </footer>
 
   <script src="videos.js"></script>
